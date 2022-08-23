@@ -63,7 +63,7 @@ class ApiTest: XCTestCase {
 
 ## Documentation
 
-Documentation is available [here](https://stubbles.aplr.io) and provides a comprehensive documentation of the library's public interface.
+Documentation is available [here](https://stubbles.aplr.io/documentation/stubbles) and provides a comprehensive documentation of the library's public interface.
 
 ## License
 Stubbles is licensed under the [MIT License](https://github.com/aplr/Stubbles/blob/main/LICENSE).
