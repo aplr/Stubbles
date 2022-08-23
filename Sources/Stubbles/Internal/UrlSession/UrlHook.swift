@@ -10,11 +10,11 @@ import Foundation
 final class UrlHook: HttpClientHook {
     
     func load() {
-        URLProtocol.registerClass(HttpStubUrlProtocol.self)
+        URLProtocol.registerClass(UrlProtocolStub.self)
     }
     
     func unload() {
-        URLProtocol.unregisterClass(HttpStubUrlProtocol.self)
+        URLProtocol.unregisterClass(UrlProtocolStub.self)
     }
     
     func isEqual(to other: HttpClientHook) -> Bool {

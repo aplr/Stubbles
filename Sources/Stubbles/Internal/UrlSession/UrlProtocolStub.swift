@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class HttpStubUrlProtocol: URLProtocol {
+final class UrlProtocolStub: URLProtocol {
     
     private var urlSessionTask: URLSessionTask?
     

@@ -1,16 +1,24 @@
 //
 //  HttpRequest.swift
-//  Stubble
+//  Stubbles
 //
 //  Created by Andreas Pfurtscheller on 22.08.22.
 //
 
 import Foundation
 
+/// A type that represents a HTTP request.
 public protocol HttpRequest {
+    /// The URL of the request.
     var url: URL? { get }
+    
+    /// The HTTP request method.
     var method: HttpMethod? { get }
+    
+    /// A dictionary containing all of the HTTP header fields for a request.
     var headers: HttpHeader? { get }
+    
+    /// The data sent as the message body of a request or over a stream.
     var body: Data? { get }
 }
 
