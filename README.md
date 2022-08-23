@@ -6,7 +6,7 @@
 ![Build](https://github.com/aplr/Stubbles/actions/workflows/test.yml/badge.svg?branch=main)
 ![Documentation](https://github.com/aplr/Stubbles/actions/workflows/docs.yml/badge.svg)
 
-Stubbles is a declarative HTTP stubbing library written in Swift, with support for iOS, tvOS, watchOS and macOS.
+Stubbles is a declarative HTTP stubbing library written in Swift, with support for iOS, tvOS and macOS.
 
 ## Installation
 
